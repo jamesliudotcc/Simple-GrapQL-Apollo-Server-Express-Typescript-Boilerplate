@@ -439,14 +439,14 @@ are-we-there-yet@~1.1.2:
     delegates "^1.0.0"
     readable-stream "^2.0.6"
 
-argon2@*, argon2@^0.21.0:
-  version "0.21.0"
-  resolved "https://registry.yarnpkg.com/argon2/-/argon2-0.21.0.tgz#31650fdb6d59aa44e0d6e915ba12d47fa8916a4f"
-  integrity sha512-L+2aafb77i7RRv/Hk9V/qHHIJ+IjhOhEEO2YgRcFapCbepdHNH6frGvvRXAWEdGDD+SdLKo0F3evgi80eL9QEQ==
+argon2@*, argon2@^0.23.0:
+  version "0.23.0"
+  resolved "https://registry.yarnpkg.com/argon2/-/argon2-0.23.0.tgz#0b3cd77ed1501b2ebef23462d91cf114dfee5562"
+  integrity sha512-+CC/bLeHF3c1JmTgmeuVSCsNc/hk2yFPYdxvfX37G6VHgZAZ0gMezPI/qsYUy4YXGya8dGBUEu85itYtf8eIQQ==
   dependencies:
     "@phc/format" "^0.5.0"
-    bindings "^1.4.0"
-    node-addon-api "^1.6.0"
+    node-addon-api "^1.6.3"
+    node-gyp-build "^4.1.0"
 
 argparse@^1.0.7:
   version "1.0.10"
@@ -489,13 +489,6 @@ bcrypt@^3.0.5:
   dependencies:
     nan "2.13.1"
     node-pre-gyp "0.12.0"
-
-bindings@^1.4.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/bindings/-/bindings-1.5.0.tgz#10353c9e945334bc0511a6d90b38fbc7c9c504df"
-  integrity sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==
-  dependencies:
-    file-uri-to-path "1.0.0"
 
 body-parser@1.18.3, body-parser@^1.18.3:
   version "1.18.3"
@@ -803,11 +796,6 @@ fast-json-stable-stringify@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/fast-json-stable-stringify/-/fast-json-stable-stringify-2.0.0.tgz#d5142c0caee6b1189f87d3a76111064f86c8bbf2"
   integrity sha1-1RQsDK7msRifh9OnYREGT4bIu/I=
-
-file-uri-to-path@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/file-uri-to-path/-/file-uri-to-path-1.0.0.tgz#553a7b8446ff6f684359c445f1e37a05dacc33dd"
-  integrity sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==
 
 finalhandler@1.1.1:
   version "1.1.1"
@@ -1307,7 +1295,7 @@ negotiator@0.6.1:
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
   integrity sha1-KzJxhOiZIQEXeyhWP7XnECrNDKk=
 
-node-addon-api@^1.6.0:
+node-addon-api@^1.6.3:
   version "1.6.3"
   resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-1.6.3.tgz#3998d4593e2dca2ea82114670a4eb003386a9fe1"
   integrity sha512-FXWH6mqjWgU8ewuahp4spec8LkroFZK2NicOv6bNwZC3kcwZUI8LeZdG80UzTSLLhK4T7MsgNwlYDVRlDdfTDg==
@@ -1316,6 +1304,11 @@ node-fetch@^2.1.2, node-fetch@^2.2.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.3.0.tgz#1a1d940bbfb916a1d3e0219f037e89e71f8c5fa5"
   integrity sha512-MOd8pV3fxENbryESLgVIeaGKrdl+uaYhCSSVkjeOb/31/njTpcis5aWfdqgNlHIrKOLRbMnfPINPOML2CIFeXA==
+
+node-gyp-build@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/node-gyp-build/-/node-gyp-build-4.1.0.tgz#3bc3dd7dd4aafecaf64a2e3729e785bc3cdea565"
+  integrity sha512-rGLv++nK20BG8gc0MzzcYe1Nl3p3mtwJ74Q2QD0HTEDKZ6NvOFSelY6s2QBPWIHRR8h7hpad0LiwajfClBJfNg==
 
 node-pre-gyp@0.12.0:
   version "0.12.0"
